@@ -1,0 +1,26 @@
+{
+  "skill_name": "cost-engineering",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "boq-audit",
+      "prompt": "帮我审核这个工程量清单文件 C:/Users/Administrator/.claude/skills/cost-engineering/workspace/test_boq.xlsx，看看有没有问题。项目编码是否规范、项目特征描述是否完整、工程量有没有明显异常的。把发现的问题整理成报告。",
+      "expected_output": "审核报告应识别出：项目编码缺失（第13行）、编码位数不足12位（第14行）、2项项目特征描述为空（第10、13行）、计量单位与规范一致性检查",
+      "files": ["test_boq.xlsx"]
+    },
+    {
+      "id": 2,
+      "eval_name": "cost-summary",
+      "prompt": "这个Excel文件 C:/Users/Administrator/.claude/skills/cost-engineering/workspace/test_cost_summary.xlsx 里面有土建工程和安装工程两个专业的造价汇总表。帮我做个跨专业汇总分析，计算各专业的总造价和占比，再算一下人材机各自的占比。假设建筑面积是 8500 平方米，帮我算单方造价。",
+      "expected_output": "汇总表应包含：土建/安装各自总造价、两专业占比、人材机管利各自总额和占比、单方造价（总造价/8500m²）",
+      "files": ["test_cost_summary.xlsx"]
+    },
+    {
+      "id": 3,
+      "eval_name": "contract-payment",
+      "prompt": "帮我看一下这份合同 C:/Users/Administrator/.claude/skills/cost-engineering/workspace/test_contract.txt，把里面关于付款的条款全部提取出来，生成一个支付计划表。重点关注预付款、进度款、竣工结算款、质保金的具体比例和时间节点。",
+      "expected_output": "应提取出：预付款15%及扣回方式、进度款80%月付、结算款97%、质保金3%两年返还，生成支付计划时间表",
+      "files": ["test_contract.txt"]
+    }
+  ]
+}

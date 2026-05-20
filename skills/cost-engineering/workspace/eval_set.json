@@ -1,0 +1,82 @@
+﻿[
+  {
+    "query": "帮我审核一下这个工程量清单Excel，看看项目编码和特征描述有没有问题",
+    "should_trigger": true
+  },
+  {
+    "query": "我这有个投标报价文件和控制价，帮我对比一下每项的单价差异，标出偏差超过10%的",
+    "should_trigger": true
+  },
+  {
+    "query": "这份施工合同里关于付款的部分帮我理一下，预付款怎么付、进度款比例多少、质保金什么时候退",
+    "should_trigger": true
+  },
+  {
+    "query": "有个项目建筑面积大概12000平，土建和安装两个专业的造价汇总表在同一个Excel里，帮我算单方造价和各专业占比",
+    "should_trigger": true
+  },
+  {
+    "query": "看看这个综合单价分析表，人工费材料费机械费的比例对不对，管理费和利润的取费有没有问题",
+    "should_trigger": true
+  },
+  {
+    "query": "我们项目的钢筋和混凝土价格涨了不少，合同约定风险幅度正负5%，帮我算一下材料调差",
+    "should_trigger": true
+  },
+  {
+    "query": "这个工程量清单感觉有漏项，你帮我按施工工序捋一遍看看少了什么",
+    "should_trigger": true
+  },
+  {
+    "query": "我在做结算审核，送审的清单里有几项的定额套用好像不太对，帮我看看项目特征应该匹配什么定额子目",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我分析下这个招标控制价，看看各项费用的构成是不是合理",
+    "should_trigger": true
+  },
+  {
+    "query": "合同里变更签证的计价原则是怎么写的？有相同项用相同单价，类似的参照调整对吧？帮我确认一下这样理解对不对",
+    "should_trigger": true
+  },
+  {
+    "query": "你好，帮我看看这个PDF图纸里的门窗表，我想统计一下各类门的数量和面积",
+    "should_trigger": false
+  },
+  {
+    "query": "这个Excel里有好几个sheet，帮我把所有数据合并到一个表里",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我写个Python脚本，读取所有xlsx文件然后把里面的数据按日期排序输出",
+    "should_trigger": false
+  },
+  {
+    "query": "这份合同里有个排他条款，帮我看一下会不会影响我们跟其他供应商的合作",
+    "should_trigger": false
+  },
+  {
+    "query": "我这有个施工进度计划的横道图Excel，帮我分析一下关键路径和总工期",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我翻译这份招标文件的技术规范部分，从中文翻成英文",
+    "should_trigger": false
+  },
+  {
+    "query": "CAD图纸里这个梁的配筋率帮我算一下，截面400x600，配了6根25的钢筋",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我做一个项目成本预算表模板，要有人员、设备、差旅、外包这些分类",
+    "should_trigger": false
+  },
+  {
+    "query": "这份工程保险单里的免赔额和赔偿限额帮我提取出来",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我把这个材料采购清单按金额从大到小排个序，然后输出前20项",
+    "should_trigger": false
+  }
+]
