@@ -1,0 +1,32 @@
+# Session data (machine-specific)
+sessions/
+session-env/
+shell-snapshots/
+
+# Telemetry & analytics
+telemetry/
+
+# Backups
+backups/
+
+# File history
+file-history/
+
+# Conversation history
+history.jsonl
+
+# Cleanup marker
+.last-cleanup
+
+# IDE-specific
+ide/
+
+# Cache
+cache/
+
+# MCP config (may contain API keys)
+mcp.json
+
+# OS files
+.DS_Store
+Thumbs.db
