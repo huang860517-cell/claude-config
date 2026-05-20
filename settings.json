@@ -16,9 +16,7 @@
       "Bash(powershell -Command \"Get-NetTCPConnection -State Established -RemotePort 7890,7891,1080,10808,10809,8118,8080,9090,4780,2080 -ErrorAction SilentlyContinue | Select-Object LocalAddress,LocalPort,RemoteAddress,RemotePort,State | Format-Table -AutoSize\")",
       "Bash(powershell -Command \"Get-Process | Select-Object ProcessName | Format-Table -HideTableHeaders\")",
       "Bash(netsh interface *)",
-      "Bash(powershell -Command \"Get-NetTCPConnection -State Listen -LocalPort 7890,7891,7892,7893,7897,9090,9097,1080,10808,10809 -ErrorAction SilentlyContinue | Select LocalPort,State\")",
-      "Bash(curl -s --connect-timeout 10 -o /dev/null -w \"%{http_code}\" -x http://127.0.0.1:7897 \"https://api.search.brave.com/res/v1/web/search?q=test\" -H \"Accept: application/json\" -H \"Accept-Encoding: gzip\" -H \"X-Subscription-Token: BSAliZmOBl2UnVSpGZUY5RDrhf5oVGf\")",
-      "Bash(powershell -Command \"[System.Environment]::SetEnvironmentVariable\\('ANTHROPIC_AUTH_TOKEN', 'sk-a5d005caf23f4507af58d4e2104c2b44', 'User'\\)\")"
+      "Bash(powershell -Command \"Get-NetTCPConnection -State Listen -LocalPort 7890,7891,7892,7893,7897,9090,9097,1080,10808,10809 -ErrorAction SilentlyContinue | Select LocalPort,State\")"
     ]
   },
   "skipDangerousModePermissionPrompt": true,
